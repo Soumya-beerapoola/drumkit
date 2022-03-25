@@ -1,0 +1,36 @@
+.keys{
+
+    height : 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/audiance.jpeg");
+    background-size: cover;
+}
+.key{
+    margin : 20px;
+    width : 100px;
+    height:80px;
+    transition: all 1s;
+    border: 3px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+kbd{
+    display:block;
+    font-size: 40px;
+}
+.sound{
+    color: yellow;
+    font-size: 20px;
+}
+
+.playing{
+  transform: scale(2);
+  border: 3px solid yellow;
+  box-shadow: 0 0 10px yellow;
+
+}
